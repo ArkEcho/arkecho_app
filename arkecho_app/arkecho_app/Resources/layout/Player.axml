@@ -41,10 +41,10 @@
             android:id="@+id/pbBackward"
             android:background="@drawable/rewindicon" />
         <Button
-            android:layout_width="60.0dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:id="@+id/pbPlay_Pause"
-            android:background="@drawable/playicon" />
+            android:background="@drawable/playpauseicon" />
         <Button
             android:layout_width="80dp"
             android:layout_height="match_parent"

@@ -91,7 +91,10 @@ namespace arkecho_app.source
 			public const int playIcon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int rewindIcon = 2130837510;
+			public const int playPauseIcon = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int rewindIcon = 2130837511;
 			
 			static Drawable()
 			{
