@@ -36,19 +36,19 @@
         android:gravity="center"
         android:layout_marginTop="10.0dp">
         <Button
-            android:text="@string/PlayerActivityButtonBackward"
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:id="@+id/pbBackward" />
+            android:id="@+id/pbBackward"
+            android:background="@drawable/rewindicon" />
         <Button
-            android:text="@string/PlayerActivityButtonPlay_Pause"
-            android:layout_width="wrap_content"
+            android:layout_width="60.0dp"
             android:layout_height="match_parent"
-            android:id="@+id/pbPlay_Pause" />
+            android:id="@+id/pbPlay_Pause"
+            android:background="@drawable/playicon" />
         <Button
-            android:text="@string/PlayerActivityButtonForward"
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:id="@+id/pbForward" />
+            android:id="@+id/pbForward"
+            android:background="@drawable/forwardicon" />
     </LinearLayout>
 </LinearLayout>
