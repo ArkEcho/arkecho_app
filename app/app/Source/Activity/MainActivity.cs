@@ -85,7 +85,12 @@ namespace arkecho_app.source.activity
 
             setElementsEnabled(true);
 
-            if (ArkEchoWebSocket.checkIfConnectionIsOpen()) StartActivity(typeof(PlayerActivity));
+            if (ArkEchoWebSocket.checkIfConnectionIsOpen())
+            {
+                Vibrator vibrator = (Vibrator)this.GetSystemService(VibratorService);
+                vibrator.Vibrate(500);
+                StartActivity(typeof(PlayerActivity));
+            }
             else showMessageBoxNoConnection();
         }
 
