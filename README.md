@@ -47,15 +47,29 @@ ArkEcho Player can play the following Audio Formats:
 ### JSON Songlist:
 ```json
 {
+	"SongList":
 	[
-		"Key": int,
-		"Song": 
-		{		
-			"SongTitle": string,	
-			"SongInterpret": string,
-			"AlbumTitle": string,
-			"AlbumInterpret": string,
-			"CoverArt": string
+		{
+			"Key": int,
+			"Song": 
+			{		
+				"SongTitle": string,	
+				"SongInterpret": string,
+				"AlbumTitle": string,
+				"AlbumInterpret": string,
+				"CoverArt": string
+			}
+		},
+		{
+			"Key": int,
+			"Song": 
+			{		
+				"SongTitle": string,	
+				"SongInterpret": string,
+				"AlbumTitle": string,
+				"AlbumInterpret": string,
+				"CoverArt": string
+			}
 		}
 	]
 }
