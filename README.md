@@ -1,10 +1,12 @@
-# ArkEcho App Development
+![Logo](app/app/Resources/drawable/arkecho_logo/arkecho_logo_whole_dark.png)
 
-- [Player] (https://github.com/stephan-z/arkecho_player)
-- [Page] (https://github.com/stephan-z/arkecho_page)
-- [App] (https://github.com/stephan-z/arkecho_app)
+# App
 
-###Description
+- [Player](https://github.com/stephan-z/arkecho_player)
+- [Page](https://github.com/stephan-z/arkecho_page)
+- [App](https://github.com/stephan-z/arkecho_app)
+
+### Description
 ArkEcho is a private, non-commercial Project, developed by Stephan Ziesenis, Student of Health-Informatics at Heidelberg University & Heilbronn University.
 
 The ArkEcho Player is a 'normal' Media Player, like VLC or Windows Media Player. Its developed for playing Music-Songs.
@@ -12,65 +14,9 @@ Its Feature is the ArkEcho App, that controls the Player via NetWork. Therefore 
 To Connect the App to the Player, you can scan a Qr-Code in the Player or type the Address manually.
 Another Feature is the ArkEcho Page, that controls the Player over your Web-Browser in the NetWork.
 
-ArkEcho Player can play the following Audio Formats:
-- .mp3
-- .m4a
-
-### App, Page and 2Player are using:
-- Material-Design-Icons [Github] (https://github.com/google/material-design-icons)
-
-### ArkEcho-App is developed with Visual Studio 2015, Xamarin.Android in C# #
+### ArkEcho App is developed with Visual Studio 2015, Xamarin.Android in C# #
 #### The App is using NuGet Packages: 
-- WebSockets.PCL - [Github] (https://github.com/NVentimiglia/Websockets.PCL)
-- JSON.Net - [Github] (https://github.com/JamesNK/Newtonsoft.Json)
-- ZXing.Net.Mobile - [Github] (https://github.com/Redth/ZXing.Net.Mobile)
-
-### JSON Messages:
-```json
-{
-	"Message": string,
-	"Type": int
-}
-```
-
-### JSON Song:
-```json
-{
-	"SongTitle": string,	
-	"SongInterpret": string,
-	"AlbumTitle": string,
-	"AlbumInterpret": string,
-	"CoverArt": string
-}
-```
-
-### JSON Songlist:
-```json
-{
-	"SongList":
-	[
-		{
-			"Key": int,
-			"Song": 
-			{		
-				"SongTitle": string,	
-				"SongInterpret": string,
-				"AlbumTitle": string,
-				"AlbumInterpret": string,
-				"CoverArt": string
-			}
-		},
-		{
-			"Key": int,
-			"Song": 
-			{		
-				"SongTitle": string,	
-				"SongInterpret": string,
-				"AlbumTitle": string,
-				"AlbumInterpret": string,
-				"CoverArt": string
-			}
-		}
-	]
-}
-```
+- [Material-Design-Icons](https://github.com/google/material-design-icons)
+- [WebSockets.PCL](https://github.com/NVentimiglia/Websockets.PCL)
+- [JSON.Net](https://github.com/JamesNK/Newtonsoft.Json)
+- [ZXing.Net.Mobile](https://github.com/Redth/ZXing.Net.Mobile)
