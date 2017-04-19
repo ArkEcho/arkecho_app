@@ -1,4 +1,4 @@
-![Logo](app/app/Resources/drawable/arkecho_logo/arkecho_logo_whole_dark.png)
+![Logo](app/app/Resources/drawable/arkecho_logo_whole_dark.png)
 
 # App
 

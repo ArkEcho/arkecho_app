@@ -9,7 +9,7 @@
         android:id="@+id/space1"
         android:layout_weight="1" />
     <ImageView
-        android:src="@drawable/playericon"
+        android:src="@drawable/arkecho_logo_small_blue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView1" />
