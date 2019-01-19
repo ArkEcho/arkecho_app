@@ -7,7 +7,7 @@
 - [App](https://github.com/stephan-z/arkecho_app)
 
 ### Description
-ArkEcho is a private, non-commercial Project, developed by Stephan Ziesenis, Student of Health-Informatics at Heidelberg University & Heilbronn University.
+ArkEcho is a private, non-commercial Project, developed by Stephan Ziesenis
 
 The ArkEcho Player is a 'normal' Media Player, like VLC or Windows Media Player. Its developed for playing Music-Songs.
 Its Feature is the ArkEcho App, that controls the Player via NetWork. Therefore it uses the WebSocket Protocoll.
